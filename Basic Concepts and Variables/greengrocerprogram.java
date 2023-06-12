@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class greengrocerprogram {
+    public static void main(String[] args){
     Scanner scan=new Scanner(System.in);
     int kilo;
         //armutkilo=2.14, elmakilo=3.67, muzkilo=0.95, patlıcankilo=5,domateskilo=1.11
@@ -24,5 +25,5 @@ public class greengrocerprogram {
         
         toplam=(domateskilo*1.11)+(elmakilo*3.67)+(armutkilo*2.14)+(muzkilo*0.95)+(patlicankilo*5);
         System.out.println("Toplam Tutar:"+toplam);
-    
+    }
 }
