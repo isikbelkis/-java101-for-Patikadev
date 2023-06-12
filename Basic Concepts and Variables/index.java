@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class index {
+    public static void main(String[] args){
     Scanner scan=new Scanner(System.in);
     double kilo,boy,indeks;
     System.out.println("Boyunuzu metre cinsinden giriniz:");
@@ -12,5 +13,5 @@ public class index {
     indeks=kilo/(boy*boy);
     System.out.println("Vücut indeksiniz:"+indeks);
 
-    
+    }  
 }
