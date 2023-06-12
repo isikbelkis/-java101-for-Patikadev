@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class chinesezodiac {
+    public static void main(String[] args){
     Scanner scan=new Scanner(System.in);
     int birtday;
         int mod;
@@ -47,7 +48,7 @@ public class chinesezodiac {
             default:
                 break;
         }
-        
+    } 
     
     
 }
