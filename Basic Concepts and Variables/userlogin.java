@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class userlogin {
+    public static void main(String[] args){
     Scanner scan=new Scanner(System.in);
     String userName,password;
         System.out.println("Kullanıcı adını giriniz:");
@@ -15,5 +16,5 @@ public class userlogin {
             System.out.println("Kullanıcı adı veya parola hatalı");
             
         }
-    
+    }
 }
