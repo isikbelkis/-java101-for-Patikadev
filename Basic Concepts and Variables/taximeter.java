@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class taximeter {
+    public static void main(String[] args){
     Scanner scan=new Scanner(System.in); 
         int km;
         double kmBasi=2.28,total, startPrice=10;
@@ -16,7 +17,7 @@ public class taximeter {
             System.out.println("Ödenecek Tutar:"+total);
         }
         
-        
+      }
         
     }
         
