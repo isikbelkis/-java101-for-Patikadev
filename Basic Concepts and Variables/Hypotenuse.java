@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Hypotenuse {
+    public static void main(String[] args){
     Scanner scan=new Scanner(System.in); 
         int a, b;
         double c;
@@ -11,4 +12,5 @@ public class Hypotenuse {
         
         c=Math.sqrt((a*a)+(b*b));
         System.out.println("Hipotenüs:"+c);
+ }
 }
