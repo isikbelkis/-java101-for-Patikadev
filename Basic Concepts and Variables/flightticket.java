@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class flightticket {
+    public static void main(String[] args){
     Scanner scan=new Scanner (System.in);
     int km,yas;
         double bilet;
@@ -41,5 +42,6 @@ public class flightticket {
     } else {
             System.out.println("Hatalı Veri Girdiniz !");
         }
-        }
+     }
+  }
 }
